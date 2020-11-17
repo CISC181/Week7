@@ -19,6 +19,13 @@ public class CollectionsDemo {
 
 		// Now add observability by wrapping it with ObservableList.
 		Observable observableMap = (Observable) FXCollections.observableMap(map);
+		
+
+		
+		
+		
+		
+		
 		((ObservableMap<String, String>) observableMap).addListener(new MapChangeListener() {
 
 
