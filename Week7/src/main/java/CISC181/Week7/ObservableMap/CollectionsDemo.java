@@ -18,7 +18,7 @@ public class CollectionsDemo {
 		Map<String, String> map = new HashMap<String, String>();
 
 		// Now add observability by wrapping it with ObservableList.
-		Observable observableMap = (Observable) FXCollections.observableMap(map);
+		ObservableMap observableMap = (ObservableMap) FXCollections.observableMap(map);
 		
 
 		
